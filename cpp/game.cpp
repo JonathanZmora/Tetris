@@ -36,14 +36,16 @@ void Game::displayInstructions() const
 	cout << "d - move right" << endl;
 	cout << "s - rotate clockwise" << endl;
 	cout << "w - rotate counter clockwise" << endl;
-	cout << "x - drop" << endl << endl;
+	cout << "x - drop" << endl;
+	cout << "escape - pause game" << endl << endl;
 
 	cout << "Player 2 Keys (Right board):" << endl;
 	cout << "j - move left" << endl;
 	cout << "l - move right" << endl;
 	cout << "k - rotate clockwise" << endl;
 	cout << "i - rotate counter clockwise" << endl;
-	cout << "m - drop" << endl << endl;
+	cout << "m - drop" << endl;
+	cout << "escape - pause game" << endl << endl;
 
 	cout << "Instructions:" << endl;
 	cout << "Each players objective is to move and rotate the" << endl;
